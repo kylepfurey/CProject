@@ -20,5 +20,6 @@
 
 // EXTERNAL LIBRARIES
 #include <SDL3/SDL.h>
+#include <cjson/cJSON.h>
 
 #endif // TODO_EXTERNAL_H

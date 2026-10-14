@@ -47,10 +47,12 @@ target_compile_definitions(libTODO PRIVATE
 
 # Find external libraries
 find_package(SDL3 CONFIG REQUIRED)
+find_package(cJSON CONFIG REQUIRED)
 
 # Link external libraries to libTODO
 target_link_libraries(libTODO PUBLIC
         SDL3::SDL3
+        cjson
 )
 
 # Build TODO
